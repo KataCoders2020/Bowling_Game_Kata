@@ -13,5 +13,7 @@ In the tenth frame a player who rolls a spare or strike is allowed to roll the e
 ## Requirements
 Write a class Game that has two methods
 
-#### void roll(int): is called each time the player rolls a ball. The argument is the number of pins knocked down.
-#### int score(): returns the total score for that game.
+#### void roll(int): 
+is called each time the player rolls a ball. The argument is the number of pins knocked down.
+#### int score(): 
+returns the total score for that game.
