@@ -3,7 +3,7 @@
 use App\Game;
 use PHPUnit\Framework\TestCase;
 
-///  10 turnos (20 tiradas)
+///  10 turnos 
 ///  1 turno 2 = tiradas
 ///  En 1 tirada tenemos  10 bolos disponibles para puntuar
 ///  1 bolo = 1 pto
@@ -35,5 +35,4 @@ class GameTest extends TestCase
         $this->assertSame(2, $result);
     }
 
-    public function test_
 } 
