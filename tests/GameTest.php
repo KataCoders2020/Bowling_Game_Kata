@@ -21,7 +21,6 @@ class GameTest extends TestCase
     public function test_cuantos_bolos_puedo_tirar_como_maximo_en_1_tirada()
     {
         $pins = 10;
-        $pins = 10;
 
 
         $roll= new Game();
