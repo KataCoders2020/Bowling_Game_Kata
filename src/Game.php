@@ -6,13 +6,14 @@ final class Game
 {   
     private $score = 0;
 
-    public function roll($pins)
+    public function roll($int)
     {
-
+        $this->score += $int;
     }
 
     public function score()
     {
-        return 0;
+        
+        return $this->score;
     }
 }
