@@ -4,19 +4,15 @@ namespace App;
 
 final class Game
 {   
-    private $roll = 1;
-    private $frame = 2; 
+    private $score = 0;
 
-    public function getPins()
+    public function roll($pins)
     {
-        $maximumPins = 10;
 
-        return $maximumPins;
     }
 
-    public function getFrame()
+    public function score()
     {
-        return $this->frame;
+        return 0;
     }
-
 }
